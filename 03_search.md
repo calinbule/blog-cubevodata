@@ -10,7 +10,7 @@ title: Search
 </div>
 
 <!-- Script pointing to search-script.js -->
-<script src="js/search-script.js" type="text/javascript"></script>
+<script src="{{ "js/search-script.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
@@ -18,6 +18,6 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   searchResultTemplate: '<a href="{url}"><li><h3>{title}</h3></li></a>',
-  json: '/blog/search.json'
+  json: "{{ "search.json" | prepend: site.baseurl }}"
 })
 </script>
