@@ -27,7 +27,6 @@ defaults:
 
 # Custom variables
 version: "1.1.0"
-base_url: "/"
 
 # Options
 custom_header: false
