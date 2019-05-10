@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer Tools - What Should You Wor
+title: Developer Tools - What Should You Use? Here's my list
 category: General
 tags: [developer tools, general]
 ---
@@ -56,11 +56,13 @@ I installed all major browsers ([Chrome](< https://www.google.com/chrome/>), [Fi
 Before closing, I have to mention in passing [Workbench](< https://workbench.developerforce.com/>) which you will certainly want to use in SalesForce related projects, especially those where you need to work with data and study the composition of the various objects, and [Grammarly](< https://app.grammarly.com/>) for checking spelling or grammatical errors in your articles, emails, etc.  
 
 ### Closing notes
-I would like to point out that, other than Excel, which is obviously a commercial program, all the other stuff I mentioned in this article is free, or they have a free tier. In fact, the only ones I pay for are the Google Drive’s 100GB option and an  Office365 Business Premium subscription.
+I would like to point out that, other than Excel, which is obviously a commercial program, all the other stuff I mentioned in this article is free, or they have a free tier. In fact, the only ones I pay for are the Google Drive’s 100GB option and an Office365 Business Premium subscription.
 
-Another important point is that the links are present only to help the readers find the tools described more easily and not for commercial purposes. But then again, they wouldn’t be paid publicity, would they… as my blog is still fresh out of the oven ?   
-Lately I have been exploring with a range of interesting stuff among which [WebAssembly](< https://webassembly.org/>), [Splunk](< https://www.splunk.com/>), [Jenkins](< https://jenkins.io/>) and others, and I would very much like to update this article periodically and, why not, do some separate tutorials so you might want to bookmark it because things are going to get interesting. 
+Another important aspect is that the links are present only to help the readers find the tools described more easily and not for commercial purposes. But then again, they wouldn’t represent paid publicity, would they… as my blog is still fresh out of the oven ?   
+
+Lately, I have been exploring with a range of interesting stuff among which [WebAssembly](< https://webassembly.org/>), [Splunk](< https://www.splunk.com/>), [Jenkins](< https://jenkins.io/>) and others. I would very much like to update this article periodically, whenever I decide to add, remove or change something in my toolset, and why not, do some separate articles to communicate to you my findings. 
+
 In the meantime, I’d really like to know what you are using and why, so I invite you to leave a comment and tell me. 
 
-Until the next time! Stay curious!
+Until the next time, Stay curious!
 
