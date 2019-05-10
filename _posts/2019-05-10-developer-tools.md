@@ -64,5 +64,5 @@ Lately, I have been exploring with a range of interesting stuff among which [Web
 
 In the meantime, I’d really like to know what you are using and why, so I invite you to leave a comment and tell me. 
 
-Until the next time, Stay curious!
+Until next time, stay curious!
 
