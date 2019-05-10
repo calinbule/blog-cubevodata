@@ -1,28 +1,35 @@
 ---
 layout: post
-title: The tools you use help increase your productivity as a developer
+title: Developer Tools - What Should You Wor
 category: General
 tags: [developer tools, general]
 ---
+When you work as a developer or build knowledge on your way to becoming one you ought to stay focused. Choosing the right tools could help a lot, and by the right tools, I really mean the ones that do for you. Nowadays there is much choice, maybe even too much some would say, but in the end, it’s all a matter of preference. 
 
+It's a bit confusing when you are just starting to make sense of the offers ot there and I know it first-hand. For example, I kept changing text editors because none of the ones I tried looked or behaved exactly how I wanted. I eventually had to settle and chose the one I considered the best in the bunch. 
 
-When you work as a developer or work on becoming one you ought to stay productive. This means to reduce distractions to a minimum and focus on your work. Choosing the right tools could help a lot, and by the right tools, I really mean the ones that do for you. Nowadays there is much choice, maybe even too much some would say, but in the end, it’s all a matter of preference. 
-It is a bit confusing when you are just starting to make sense of the offers and I know it firsthand. For example, I kept changing text editors because none of the ones I tried looked or did everything exactly how I wanted. I eventually had to settle and chose the one I considered the best in the bunch. 
 All this mumbo-jumbo about text editors (or other tools for that matter) might sound silly but it’s actually not. In my humble opinion, one should not waste a lot of time and energy on changing, reconfiguring and learning to use new tools because in the end, even if they come from different providers, they all do the same thing i.e. allow you to write, format and save text files (if we consider the example with the text editors). 
-I always go with the principle that I can only recommend something if I tried it, or if I would buy/get it for myself. Thus, without further ado, here follows a list of what I currently use and, why not, like to work with.
+
+I always go with the principle that I can only recommend something if I tried it, or if I would buy/get it for myself. Thus, without further ado, here follows a list of what I currently use and like to work with.
 
 ### Editors/IDEs
-Since we talked about text editors earlier, I’ll start there. The go-to utensil in my toolbox would be without a doubt Microsoft’s [Visual Studio Code](< https://code.visualstudio.com/>). It has a simple and easy to grasp interface, good git integration, access to the console directly from VS Code, problems listing and it’s very extensible. Yeah, if you find it lacking in some department, you can be quite sure that there’s an extension that might solve your problem. Not too long ago, I read an article saying that it had a high increase in popularity lately. Yes, it’s that good, and it’s also free. I also use [SublimeText](< https://www.sublimetext.com/>) as a secondary editor, mainly for ad-hoc script editing. It does not have the functionality of VS Code (at least not out-of-the-box), but I like its simplicity a lot. 
-For data science or at least data-related projects, I use [Jupyter Lab](< https://github.com/jupyterlab/jupyterlab>), and find it to be great because it allows you to execute apps step by step and see the results or the errors that get generated. 
-I also tried my hand with [PyCharm Community](< https://www.jetbrains.com/pycharm/download/#section=windows>) and [Visual Studio 2019 Community](< https://visualstudio.microsoft.com/downloads/>) but, at least now, I find them to be too complicated.    
+Since we talked about text editors earlier, I’ll start there. The go-to utensil in my toolbox would be without a doubt Microsoft’s [Visual Studio Code](< https://code.visualstudio.com/>). It has a simple and easy to use interface, good git integration, access to the console directly from VS Code, listing of problems in your peroject and it’s very extensible. If you find it lacking in some department, you can be quite sure that there’s an extension that might solve your problem. Not too long ago, I read an article saying that it had a high increase in popularity lately. Yes, it’s that good, and it’s also free. 
+
+I also use [SublimeText](< https://www.sublimetext.com/>) as a secondary editor, mainly for ad-hoc script editing. It does not have the functionality of VS Code (at least not out-of-the-box), but I love its simplicity. 
+
+For data science or at least data-related projects, I use [Jupyter Lab](< https://github.com/jupyterlab/jupyterlab>), and find it to be great because it allows you to execute code in chuncks the results or the errors that get generated with every step. 
+
+I tried my hand with [PyCharm Community](< https://www.jetbrains.com/pycharm/download/#section=windows>) and [Visual Studio 2019 Community](< https://visualstudio.microsoft.com/downloads/>) but, at least for now, I'm content with what I already use and don't feel like switching.  
 
 ### Programming language(s)
-As far as programming languages go, the choice is endless. If you want to do web development you absolutely have to know and use HTML, CSS, and JavaScript. You really don’t have much of a choice here. Other than those I mainly use Python and rarely R and VBA. 
-I chose to work with Python because it’s relatively simple to get ahold of, has a large community of contributors that is only growing every day, and it’s very versatile. 
-Its versatility is shown when you consider that it’s the main programming language used in data science, it’s also used in web development, testing, automation, etc. It basically does a bit of everything and it seems to be doing rather well. 
+As far as programming languages go, the choice is endless. If you also want to do web development you absolutely have to learn HTML, CSS, and JavaScript. You really don’t have much of a choice here. Other than those I mainly use Python and, not so often, R and VBA, for other, more specific, tasks.
+
+I chose to work with Python because it’s relatively simple to get a grasp on it, has a large community of contributors that is only growing every day, and it’s very versatile. Its versatility is obvious when you consider that it’s the main programming language used in data science, also used for web development, testing, automation, etc. It basically does a bit of everything and it seems to be doing them rather well. 
 Last but not least, Python has a very large database of extensions for everything you can think of. There the SciPy package for scientific numerical calculations, pandas for data manipulation, matplotlib for visualization, selenium integration for automation, Django/Flask for web development, etc. Give it a few years and someone will surely develop packages that cook your food or wash your laundry! 
-Although it’s very good at a lot of things, the relationship with Python is not always a bed of roses. In some cases it’s slow, even painfully slow I’d say, and it also does not do multi-core or multi-thread processing.  The good news is that there are packages even for these cases like Cyton (for writing blazing fast extensions in C) and some libraries that enable multiprocessing. 
-I use and recommend the [Anaconda](< https://www.anaconda.com/distribution/#download-section>) distribution, from Continuum Analytics. Not only is it very stable and well maintained, but it also comes with a very large array of extensions and tools in the installation kit. Thus, with one installation, you also get Jupyter, SciPy, pandas, matplotlib, SciKit-Learn, TensorFlow, VS Code, Spyder (an IDE developed specifically for data science), Orange (for data mining) and other goodies. As far as I remember it even comes with Flask preinstalled so you are ready to go on your development adventure.   
+
+But, although it’s very good at a lot of things, the relationship with Python is not always a bed of roses. In some cases it’s slow, even painfully slow I’d say, and it also does not do multi-core or multi-thread processing. The good news is that there are packages even for these cases like Cyton (for writing blazing fast extensions in C) and some libraries that enable multiprocessing. 
+
+I use and recommend the [Anaconda](< https://www.anaconda.com/distribution/#download-section>) distribution, from Continuum Analytics. Not only is it very stable and well maintained, but it also comes with a very large array of extensions and tools in the installation kit. Thus, with one installation, you also get Jupyter, SciPy, pandas, matplotlib, SciKit-Learn, TensorFlow, VS Code, Spyder (an IDE developed specifically for data science), Orange (for data mining) and other goodies. As far as I remember it even comes with Flask preinstalled so you are ready to embark onto your development adventure.   
 
 ### Database
 In the database department, you should definitely try [PostgreSQL](< https://www.postgresql.org/>) and [SQLite](< https://www.sqlite.org/index.html>). The first I use for more serious projects and the second for smaller ones. [DBeaver](<https://dbeaver.io/>) is a great DB exploration tool and I recommend it. 
