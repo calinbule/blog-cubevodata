@@ -1,11 +1,11 @@
 # Site settings
-title: "{shift+return}"
+title: "CUB|E|VO blog"
 description: "About optimizing work using technology."
-url: "http://shift-return.github.io"
+url: "https://blog.cubevodata.com"
 author:
-  name: "Shift + Return"
-  email: "shiftplusreturn@gmail.com"
-  url: "https://github.com/shift-return"
+  name: "Cubevo Data Concept"
+  email: "contact@cubevodata.com"
+  url: "https://blog.cubevodata.com"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
