@@ -150,6 +150,15 @@
     margin: 23px auto;
     background-color: lighten($text-color, 70%);
   }
+	
+  .blog_logo {
+	  max-height: auto;
+	  height: auto;
+	  width: 550px;
+	  @media (max-width: 1081px) {
+    		width:;
+  	}
+  }
 }
 
 /* Posts */
