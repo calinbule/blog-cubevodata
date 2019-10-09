@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Service Launch\: Dflow
+title: New Service Launch - Dflow
 category: General
 tags: [general, products]
 ---
