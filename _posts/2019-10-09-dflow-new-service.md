@@ -25,7 +25,7 @@ After that, you will only be billed with a flat monthly fee for the maintenance 
 ### Why does it interest you?
 You will have a fully managed, cloud-hosted, scalable solution for your data, that works 24/7 and eliminates the necessity of human supervision and interaction.  
 
-Drop us an email at [contact@cubevodata.com](<email:contact@cubevodata.com>) and we will be more than happy to set up a call to supply you with more information. 
+Drop us an email at [contact@cubevodata.com](<mailto:contact@cubevodata.com>) and we will be more than happy to set up a call to supply you with more information. 
 
 
 
