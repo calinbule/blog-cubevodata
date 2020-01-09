@@ -19,6 +19,7 @@ We create the data pipeline according to your specifications and needs, install 
 The solution is also scalable so, when your systems start generating more data, we can supplement the processing power in no time at all. 
 
  ### What about the costs?
+ 
 You will pay an initial fee that we agree upon together, for the realization of the data pipeline software. The cost largely depends on the complexity of the algorithm and the time necessary to create and test the program. 
 After that, you will only be billed with a flat monthly fee for the maintenance and hosting of your pipeline.
  
