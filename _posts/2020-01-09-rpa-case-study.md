@@ -1,10 +1,14 @@
-# Manual Workflow Automation ñ RPA Case Study
- 
+---
+layout: post
+title: Manual Workflow Automation ‚Äì RPA Case Study
+category: Case study
+tags: [case study, RPA, automation]
+---
  
 ## The problem
  
-Say you work for a consultancy company and they strike a deal with a client, which mainly consists of you doing a lot of annoying manual work. Hereís a much-simplified list of what you have to do every day:
-- You connect to one of their websitesí backend, generate a report with all the not-yet-processed subscription requests, and download it
+Say you work for a consultancy company and they strike a deal with a client, which mainly consists of you doing a lot of annoying manual work. Here‚Äôs a much-simplified list of what you have to do every day:
+- You connect to one of their websites‚Äô backend, generate a report with all the not-yet-processed subscription requests, and download it
 - Then you have to filter out the records you already flagged and are currently pending an answer from the client
 - For each one of the remaining potential subscribers, you need to manually search, in Salesforce, their record, and extract the relevant information, from different pages; you do this by copy/pasting into an Excel file
 - Once you have your final list, you must apply a set of rules, supplied by the client, in order to validate the records that meet the requisites, and assign them the correct access rights; the others you send to the client for manual control
@@ -20,11 +24,11 @@ For simplicity sake, we break our problem into three distinct steps:
 2. Salesforce data extraction and requests validation
 3. Upload of the final situation to the client application
  
-In this particular case, we consider that the client does not want to grant us access to an API or to the database of the application that holds the subscription data nor to give us privileges to generate an API connection key for Salesforce. We thus end up with two users, one for Salesforce and the other one for the clientís web app, and are limited to only using the front end. 
+In this particular case, we consider that the client does not want to grant us access to an API or to the database of the application that holds the subscription data nor to give us privileges to generate an API connection key for Salesforce. We thus end up with two users, one for Salesforce and the other one for the client‚Äôs web app, and are limited to only using the front end. 
 
-Letís get right to it!
+Let‚Äôs get right to it!
  
-### 1 ñ Initial Report Extraction
+### 1 ‚Äì Initial Report Extraction
 Here, given the circumstances, we can use a more unorthodox way to deal with the problem. Because we only have access to the front end, we can identify all the HTML elements with which we interact in the process of manually logging in and extracting the report, and feed them to a script that uses Selenium to control a headless web browser and automatically replicate the same behavior. This is a reusable piece of code that can be used anytime, even for other projects (though it might need some adjusting for that).
 
 The file containing the not-yet-processed account creation requests will be saved to a resources folder that is specified in the script.
@@ -32,7 +36,7 @@ The file containing the not-yet-processed account creation requests will be save
  
 ### 2 - Salesforce data extraction and requests validation
  
-Once we have the initial input data, given that they were submitted manually, we run a series of ìcleaningî and normalizing algorithms to prepare for the next steps.
+Once we have the initial input data, given that they were submitted manually, we run a series of ‚Äúcleaning‚Äù and normalizing algorithms to prepare for the next steps.
 
 For the Salesforce connection, we use Selenium to log in to the front end and capture the resulting cookie information, more precisely, the session ID. With the session ID, user and password we create our connection string and log into the Salesforce back end and using the data from the initial report, we extract the other pieces of information that we need to conclude our analysis.
 
@@ -41,7 +45,7 @@ The subscription requests are then validated, using a set of rules supplied by t
  
 ### 3 - Upload of the final situation to the client application
  
-For the last step of the process, we create a robot that reads the final situation of the requests, as determined by the previous script, logs in to the clientís application and, using Selenium, flags the ones that are validated.
+For the last step of the process, we create a robot that reads the final situation of the requests, as determined by the previous script, logs in to the client‚Äôs application and, using Selenium, flags the ones that are validated.
 
 In the end, the robot sends an email, to the interested parties, with statistics regarding the current run, highlighting the records that must be investigated further by the representatives of the client.
  
