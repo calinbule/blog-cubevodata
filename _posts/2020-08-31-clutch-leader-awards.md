@@ -11,7 +11,7 @@ We are thrilled to announce that Cubevo has been named a Clutch Leader in Romani
 
 Located in the heart of Washington, DC, Clutch is a ratings and reviews platform. Their site features verified reviews left by the former clients of B2B service providers. These reviews form the basis of their rankings and their Leader Awards. 
 
-![Clutch Awards Badge][img/clutch.png]
+![Clutch Awards Badge][clutch.png]
 
 *“We are humbled to be considered a leading company on Clutch and are honored to receive this award.” – Project Manager, Calin-Gabriel Bule*
 
