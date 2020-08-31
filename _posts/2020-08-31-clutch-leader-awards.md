@@ -21,6 +21,6 @@ We are thankful for each and every one of our amazing clients, especially those 
 
 Getting to work with so many wonderful partners over the years has been an incredible blessing. This award and our perfect 5-star rating on Clutch are all thanks to all of you!
 
-<img src="{{ site.baseurl }}/assets/img/hp_narrators.png">
+<img src="{{ site.url }}/img/clutch.png">
 
 To learn more about us and our past work, check out our [profile on Clutch](https://clutch.co/profile/cubevo-data-concept). Ready to get started on your next project? [Get in touch](https://cubevodata.com/)!
